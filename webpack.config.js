@@ -107,6 +107,7 @@ export default [
     entry: {
       index: "./packages/server/lib/main.ts",
       keybr: "./packages/server-cli/lib/main.ts",
+      initdb: "./packages/devenv/lib/initdb.ts"
     },
     output: {
       path: join(import.meta.dirname, "root", "lib"),
